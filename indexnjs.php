@@ -2,13 +2,9 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <!-- Dokumentets titel -->
         <title>HtsIT</title>
-        <!-- Länkar till stilmallen "stilen.css" -->
         <link href="stilen.css" type="text/css" rel="stylesheet" />
-        <!-- Länkar till stilmallen "meny.css" -->
         <link rel="stylesheet" type="text/css" href="meny.css" />
-        <!-- Javascript -->
         <script type="text/javascript" src="scripts/swfobject/swfobject.js"></script>
         <script type="text/javascript">
             var flashvars = {};
@@ -44,13 +40,10 @@
 
     </br></br>
     <img src="images/gallery/HTS.jpg" alt="image 2" />
-
-
     <div class="main_wh">
     </div>	
     <div id="links">
         <div class="main3_wh">
-
             <h2>Länkar:</h2>
             <h5><a href="http://www.hts.se" class="more">HTS</a></h5>
             <h5><a href="http://htsit.se/krmAcademy/" class="more">Magnus Kurser</a></h5>
@@ -64,10 +57,8 @@
                     Slutprov i kemi fredagen den 16 maj.</br></br></br></br></br></b></p>
             <h2>Kontakt:</h2>
             <p><b> Har du funderingar om hemsidan? </br>Eller några förslag om förbättringar?</br> Hör av er till mig på min email:</br>Ludwig.wolff@hotmail.com</br></br></br></br></b></p>
-
         </div>	
     </div>	
-
     <div id="main">
         <div class="main2_wh">
             <h2>Inriktningsvecka</h2> 
@@ -84,7 +75,6 @@
             <h5> 2014-03-24 </h5>
             <p>Ni som vill vara med på lanet vecka 15 ska anmäla ert intresse till Philip via mail, Philipwendel@hotmail.com med rubrik "LAN"</br></br>
                 <b>OBS:</b> Anmälan till lanet kostar 20 kr som sedan kommer användas till turneringspriser. Pengarna ska lämnas in innan vecka 15.</p>
-
         </div>	
         <div class="main2_wh">
             <h2>HTSIT</h2>
@@ -92,7 +82,6 @@
         </div>	
     </div>
     <?php include'./resources/footer.php'; ?>
-
 </div>	
 </body>
 </html>
