@@ -38,7 +38,7 @@
     <div id="Meddelande">     
         <marquee onMouseover="this.scrollAmount = 1" onMouseout="this.scrollAmount = 6">
             <!-- Meddelandets färg och innehåll -->
-            <font color="#86d2ff">[HtsIT]</font> Välkommen till HtsIT. Det här är en inofficiell sida för IT-inriktningen på HTS Teknikprogram. Vill du veta mer om HTS ska du gå till skolans hemsida http://www.hts.se.  Vill du att sidan ska bli bättre ta kontakt med Ludwig som börjar arbeta med sidan nu!
+            <font color="#86d2ff">[HtsIT]</font> Välkommen till HTSIT! Twitter: <a href="https://twitter.com/htsit3040">@htsit3040</a>
         </marquee>
         <div id="slut"></div>
         <div id="start"></div>     
