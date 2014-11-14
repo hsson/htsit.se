@@ -1,0 +1,56 @@
+.meny{
+
+}
+
+.meny ul{
+	z-index:100;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+/*Top level list items*/
+.meny ul li{
+	position: relative;
+	display: inline;
+	float: left;
+}
+
+
+/*Top level menu link items style*/
+.meny ul li a  {
+	display: block;
+	position: relative;
+	width: 100px;
+	padding: 65px 0 10px;
+	margin: 0 1px 0 0;
+	font-size: 14px;
+	color: #999;	
+	text-align: center;
+	text-decoration: none;
+	font-weight: 400;
+	outline: none;
+	border: none;
+}
+.meny ul li a:visited {
+	display: block;
+	position: relative;
+	width: 100px;
+	padding: 65px 0 10px;
+	margin: 0 1px 0 0;
+	font-size: 14px;
+	color: #999;	
+	text-align: center;
+	text-decoration: none;
+	font-weight: 400;
+	outline: none;
+	border: none;
+}
+
+
+.meny ul li a.selected, .meny ul li a:hover { /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+	color: #fff;
+	background: #244166;
+	border-bottom: 10px solid #436796;
+
+}
