@@ -5,46 +5,10 @@
         <title>HTS IT</title>
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="stylesheet" type="text/css" href="css/menu.css" />
-        <script type="text/javascript" src="htsit/piecemaker/scripts/swfobject/swfobject.js"></script>
-        <script type="text/javascript">
-            var flashvars = {};
-            flashvars.cssSource = "htsit/piecemaker/css/piecemaker.css";
-            flashvars.xmlSource = "htsit/piecemaker/piecemaker.xml";
-
-            var params = {};
-            params.play = "true";
-            params.menu = "false";
-            params.scale = "showall";
-            params.wmode = "transparent";
-            params.allowfullscreen = "true";
-            params.allowscriptaccess = "always";
-            params.allownetworking = "all";
-
-            swfobject.embedSWF('htsit/piecemaker/piecemaker.swf', 'piecemaker', '960', '500', '10', null, flashvars,
-                    params, null);
-
-        </script>
-
     </head>
     <body>
         <div id="wrapper">
-
             <?php include 'resources/navbar.php'; ?>
-            <div id="Meddelande">
-                <marquee onMouseover="this.scrollAmount = 1" onMouseout="this.scrollAmount = 6">
-                    <font color="#86d2ff">[HtsIT]</font> Välkommen till HTSIT! Twitter: <a href="https://twitter.com/htsit3040">@htsit3040</a>
-                </marquee>
-                <div id="slut"></div>
-                <div id="start"></div>
-            </div>
-            <div id="piecemaker_wh">
-                <div id="piecemaker">
-
-                </div>
-            </div>
-
-            <div class="main_wh">
-            </div>
             <div id="links">
                 <div class="main3_wh">
                     <h2>Länkar:</h2>
