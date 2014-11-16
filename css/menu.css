@@ -1,7 +1,3 @@
-.meny{
-
-}
-
 .meny ul{
 	z-index:100;
 	margin: 0;
@@ -9,14 +5,11 @@
 	list-style-type: none;
 }
 
-
 .meny ul li{
 	position: relative;
 	display: inline;
 	float: left;
 }
-
-
 
 .meny ul li a  {
 	display: block;
@@ -46,7 +39,6 @@
 	outline: none;
 	border: none;
 }
-
 
 .meny ul li a.selected, .meny ul li a:hover { 
 	color: #fff;

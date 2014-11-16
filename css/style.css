@@ -5,11 +5,8 @@ body {
 	color: #656565;
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 13px;
-	line-height: 1.5em; 
-	background-color: #e0e0e0;
-	background-repeat: repeat-x;
-	background-position: top;
-	background-image: url(../images/bakgrund.jpg)
+	line-height: 1.5em;
+	background: #e0e0e0 url(../images/bakgrund.jpg) repeat-x top;
 }
 
 /* Länkarna som syns i menyn högst upp på första sidan */
@@ -40,14 +37,18 @@ a.more {
 a:hover.more, a:focus.more,
 a:hover:before.more, a:hover:after.more,
 a:focus:before.more, a:focus:after.more {
-    color: #fff;
-}	
-/*  */
+	color: #fff;
+}
 
 /* Stilmall för rubrikerna på de olika sidorna, vilken färg,font och storlek */
 
-h1, h2, h3, h4, h5, h6 { color: #333; font-weight: normal; 	font-family: Georgia, "Times New Roman", Times, serif; }
-h1 { font-size: 48px; margin: 0 0 30px; padding: 5px 0 }
+h1, h2, h3, h4, h5, h6 {
+	color: #333;
+	font-weight: normal;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1 { font-size: 48px; margin: 0 0 30px; padding: 5px 0; }
 h2 { font-size: 38px; margin: 0 0 25px; padding: 5px 0; }
 h3 { font-size: 30px; margin: 0 0 20px; padding: 0; }
 h4 { font-size: 24px; margin: 0 0 15px; padding: 0; }
@@ -62,7 +63,9 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 }
 
 
-#menu { float: right; }
+#menu {
+	float: right;
+}
 
 /* Stilmall för headern. den ska har full bredd, en höjd på 152 px och ska hämta bilden header.jpg som bakgrund till headern */
 #header {
@@ -79,16 +82,6 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 	
 }
 
-/* Stilmall för fotona, bredd och placering */
-#fotomain{
-	
-	
-	width: 100%;
-	float: left;
-	padding: 60px 0px 20px;
-	
-}
-
 #piecemaker_wh { width: 960px; height: 500px; } 
 
 /* Stilmall för den gråa högerspalten på första sidan */
@@ -98,69 +91,52 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 	padding: 38px 0px 20px;
 	
 }
-.main_wh { margin-bottom: 40px; padding-bottom: 60px; border-bottom: 1px solid #a3a3a3 }
-.main2_wh { margin-bottom: 40px; padding-bottom: 80px; border-bottom: 1px solid #a3a3a3; clear: both; }
-.main3_wh { margin-bottom: 40px; padding: 20px; border: 4px solid #c0c0c0; background: #c0c0c0; border-radius:10px; }
+.main_wh {
+	margin-bottom: 40px;
+	padding-bottom: 60px;
+	border-bottom: 1px solid #a3a3a3;
+}
+
+.main2_wh {
+	margin-bottom: 40px;
+	padding-bottom: 80px;
+	border-bottom: 1px solid #a3a3a3;
+	clear: both;
+}
+
+.main3_wh {
+	margin-bottom: 40px;
+	padding: 20px;
+	border: 4px solid #c0c0c0;
+	background: #c0c0c0;
+	border-radius:10px;
+}
 
 /* Stilmall för loggan */
 
-#logo { float: left; margin-top: 54px; }
-#logo h1 { margin: 0; padding: 0 }
-#logo h1 a { display: block; width: 400px; height: 86px; color: #fff; text-indent: -10000px; background: url(../images/logo.png) no-repeat top center }
-
-/* Stilmall för det scrollande meddelandet */
-#Meddelande {
-	background:url(../images/broadcast.png) bottom repeat-x;
-	width:960px;
-	height:34px;
-	margin-top:29px;
-
+#logo {
+	float: left;
+	margin-top: 54px;
 }
 
-#Meddelande #start {
-	background:url(../images/broadcast.png) top left no-repeat;
-	width:6px;
-	height:34px;
-	position:absolute;
+#logo h1 {
+	margin: 0;
+	padding: 0
 }
 
-#Meddelande #slut {
-	background:url(../images/broadcast.png) top right no-repeat;
-	width:6px;
-	height:34px;
-	float:right;
+#logo h1 a {
+	display: block;
+	width: 400px;
+	height: 86px;
+	color: #fff;
+	text-indent: -10000px;
+	background: url(../images/logo.png) no-repeat top center;
 }
 
-#Meddelande marquee {
-	width:960px;
-	position:absolute;
-	color:#ffffff;
-	font-size:14px;
-	padding-top:8px;
-}
-
-/* Stilmall för galleriet och fotona på fotosidan */
-
-#gallery { margin: 0; padding: 0; list-style: none }
-#gallery li { margin: 0; padding: 0 }
-#gallery li a { display: block; float: left; width: 319px; height: 250px; margin: 0 1px 1px 0  }
-
-.foton { margin: 0 0 20px; padding: 50px 50px; }
-.foton ul { margin: 0; padding: 0; list-style: none }
-.foton ul li { margin: 0; padding: 0; display: inline }
-.foton ul li a { float: left; display: block; color: #666; text-decoration: none; margin-right: 5px; padding: 5px 10px; background-color: #ccc; border: 1px solid #999; }
-.foton ul li a:hover { background: #a5c451; border: 1px solid #999; color: #000  }
-
-img.foto {
-   width: 313px;
-   height: 240px;
-   border:  2px solid #999;
-}
 
 /* Stilmall för footern */
 
 #footer_wrapper {
-	
 	clear: both;
 	width: 100%;
 	background: #000000 url(../images/footer.png) top right repeat-x;
@@ -168,7 +144,6 @@ img.foto {
 }
 
 #footer {
-	
 	bottom:0;
 	width: 960px;
 	padding: 20px 10px 15px;	
