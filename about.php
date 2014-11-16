@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="sv">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>HtsIT</title>
+        <title>Om | HTS IT</title>
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="stylesheet" type="text/css" href="css/menu.css" />
         <style>
@@ -18,10 +18,14 @@
                 <div class="main2_wh">
                     <h2>Bakgrund</h2>
                     <div class="cleaner h20"></div>
-                    <p><b> Syftet med arbetet är att utveckla en större kunskap inom webbutveckling samt tillverka en hemsida som ska fungera som ett hjälpmedel för elever på inriktningen i form av information och nyhetsuppdateringar. Sidan ska även ge nya elever en inblick på IT-inriktningen på HTS teknik program</b></p>
-                    <p> </p> 
+                    <p><b>
+                            Syftet med arbetet är att utveckla en större kunskap inom webbutveckling samt tillverka en
+                            hemsida som ska fungera som ett hjälpmedel för elever på inriktningen i form av information
+                            och nyhetsuppdateringar. Sidan ska även ge nya elever en inblick på IT-inriktningen på HTS
+                            teknik program
+                    </b></p>
                 </div>   
-            </div></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+            </div>
             <?php include'resources/footer.php' ?>
         </div>
     </body>
