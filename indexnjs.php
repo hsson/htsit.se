@@ -3,8 +3,8 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>HtsIT</title>
-        <link href="stilen.css" type="text/css" rel="stylesheet" />
-        <link rel="stylesheet" type="text/css" href="meny.css" />
+        <link href="css/style.css" type="text/css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="css/menu.css" />
         <script type="text/javascript" src="scripts/swfobject/swfobject.js"></script>
         <script type="text/javascript">
             var flashvars = {};

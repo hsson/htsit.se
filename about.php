@@ -3,8 +3,8 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>HtsIT</title>
-        <link href="stilen.css" type="text/css" rel="stylesheet" />
-        <link rel="stylesheet" type="text/css" href="meny.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/menu.css" />
         <style>
             #notfound { text-align:center; width:960px;  }
         </style>
