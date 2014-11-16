@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="sv">
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta charset="utf-8">
         <title>Kurser | HTS IT</title>
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="stylesheet" type="text/css" href="css/menu.css" />
@@ -9,9 +9,6 @@
     <body>
         <div id="wrapper">
             <?php include 'resources/navbar.php'; ?>
-            <div class="main_wh">
-
-            </div>
             <div id="main">
                 <div class="main2_wh">
                     <h2>Mediaproduktion</h2>
@@ -23,12 +20,13 @@
                     </p>
                     <p>
                         I undervisningen får vi lära oss att hantera bilder, ljud samt video med hjälp av program så som:
-                        <br />Adobe Photoshop
-                        <br />Adobe Indesign
-                        <br />Audacity
-                        <br />Windows Movie Maker
-                        <br />
                     </p>
+                    <ul>
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe InDesign</li>
+                        <li>Audacity</li>
+                        <li>Windows Movie Maker</li>
+                    </ul>
                 </div>
             </div>
             <div id="main">
@@ -38,10 +36,14 @@
                         Kursen är avsedd att ge användbara och grundläggande teoretiska och praktiska kunskaper i
                         programmering. Grundläggande programmering behandlar de viktigaste grundprinciperna för
                         sekventiell programmering. Villkorssatser och loopar, datalogiska begrepp och algoritmer.
-                        <br />Ämnet programmering behandlar programmeringens roll i informationstekniska sammanhang
+                    </p>
+                    <p>
+                        Ämnet programmering behandlar programmeringens roll i informationstekniska sammanhang
                         som datorsimulering, animerad grafik, praktisk datoriserad problemlösning och användaranpassad
                         konfiguration av programvara. Det behandlar också hur man skapar, utvecklar och anpassar
-                        programvaror samt tillämpar datalogisk teori.<br />
+                        programvaror samt tillämpar datalogisk teori.
+                    </p>
+                    <p>
                         Kursen går i huvudsak igenom programmeringsspråket Java och kommer innehålla ett antal olika
                         övningsuppgifter, kursen brukar avslutas med eget arbete som t.ex att göra ett spel.
                     </p>
@@ -59,11 +61,15 @@
                             verkligheten. Uppbyggnad av databaser och kunskaper om säkerhet och förmåga att identifiera
                             och motarbeta attacker är också 2 väsentliga delar
                         </p>
-                        Vi får lära oss att hantera följande program/språk/databaser: <br />
-                        PHP<br />
-                        phpMyAdmin<br />
-                        Apache<br />
-                        MySQL</p>
+                        <p>
+                            Vi får lära oss att hantera följande program/språk/databaser:
+                        </p>
+                        <ul>
+                            <li>PHP</li>
+                            <li>phpMyAdmin</li>
+                            <li>Apache</li>
+                            <li>MySQL</li>
+                        </ul>
                         <br />><p>Här kan du följa pågående projekt:</p>
                         <a href="http://htsit.se/krmAcademy/WebServer/">Webbserverprogrammering</a>
                     </div>
@@ -79,13 +85,16 @@
                             Webbdesign avser hantverket att ge en webbplats en grundläggande grafisk design som oftast
                             styrs av märkspråk. Till det hör att bestämma storlekar på och placering av ytor,
                             typografi, färgskalor, manér eller stil för bilder, ikoner, logotyper och andra
-                            grafiska element.<br />
-                            <br />Vi får lära oss de olika språken och teknikenerna för att skapa webbsidor. <br />
-                            Så som:<br />
-                            HTML<br />
-                            CSS<br />
-                            Javascript
+                            grafiska element.
                         </p>
+                        <p>
+                            Vi får lära oss de olika språken och teknikenerna för att skapa webbsidor. Så som:
+                        </p>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                        </ul>
                     </div>
                     <div class="cleaner"></div>
                 </div>
